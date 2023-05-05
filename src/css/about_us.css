@@ -60,8 +60,18 @@ body {
   }
   .about-us-all-text-wrapper {
     display: flex;
+    margin-bottom: 40px;
   }
   .about-us-desc-wrapper {
     display: flex;
+  }
+  .section-name {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 40px;
+    margin-right: 40px;
+  }
+  .about-us-desc-part-one {
+    margin-right: 20px;
   }
 }
