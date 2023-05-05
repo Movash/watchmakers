@@ -81,6 +81,10 @@ body {
     width: 100%;
     max-width: 1440px;
   }
+  .pic-wrapper {
+    display: inline-block;
+    max-width: 892;
+  }
   .section-name {
     margin-right: 110px;
   }
