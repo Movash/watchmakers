@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Watchmakers</title>
@@ -19,9 +19,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Swiper підключення -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body> /* Slav вніс  коментар */
+  <body>
     <load ="partials/header.html" />
     <main>
       <load ="partials/hero.html" />
@@ -35,5 +41,39 @@
     <load ="partials/footer.html" />
 
     <script type="module" src="/main.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      const swiper = new Swiper('.mySwiper', {
+        slidePerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        keyboard: {
+          enabled: true,
+        },
+        navigation: {
+          nextEl: '.button-next',
+          prevEl: '.button-prev',
+        },
+        pagination: {
+          el: '.sviper-pagination',
+          type: 'fraction',
+          renderFraction: function (currentClass, totalClass) {
+            return (
+              '<span class="' +
+              currentClass +
+              '"></span>' +
+              '<div class="box"></div>' +
+              '<span class="' +
+              totalClass +
+              '"></span>'
+            );
+          },
+        },
+      });
+    </script>
   </body>
 </html>
