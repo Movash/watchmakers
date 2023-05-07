@@ -1,0 +1,91 @@
+<section class="hero">
+  <div class="container">
+    <h1 class="hero-name">Welcome to our collection of premium watches</h1>
+    <!-- Slider -->
+    <div class="televizor">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide num1">
+            <img src="./images/just-wath.png" alt="#" />
+          </div>
+          <div class="swiper-slide num2">
+            <img src="./images/IMG_9463 1-1.jpg" alt="#" />
+          </div>
+          <div class="swiper-slide num3">
+            <img src="./images/IMG_9463 1-2.jpg" alt="#" />
+          </div>
+          <div class="swiper-slide num4">
+            <img src="./images/IMG_9463 1-3.jpg" alt="#" />
+          </div>
+          <div class="swiper-slide num5">
+            <img src="./images/IMG_9463 1-4.jpg" alt="#" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-buttons">
+      <div class="btn-wrp">
+        <div class="button-prev">
+          <button class="hero-btn" type="button">
+            <p class="left-btn"><</p>
+          </button>
+        </div>
+        <div class="button-next">
+          <button class="hero-btn-active" type="button">
+            <p class="right-btn">></p>
+          </button>
+        </div>
+      </div>
+      <div class="spw">
+        <div class="sviper-pagination">
+          <div class="box"></div>
+        </div>
+      </div>
+    </div>
+    <div class="just-text">
+      <p class="hero-text">
+        Our watches are not just timepieces, but also an expression of your
+        personality and lifestyle. From classic designs to modern ones, we have
+        a watch to suit every taste and occasion.
+      </p>
+    </div>
+    <div>
+      <img src="./images/hero-image.jpg" alt="watch on hand" />
+    </div>
+  </div>
+</section>
+
+<!-- Swiper JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  const swiper = new Swiper('.mySwiper', {
+    slidePerView: 1,
+    spaceBetween: 10,
+    loop: true,
+    keyboard: {
+      enabled: true,
+    },
+    navigation: {
+      nextEl: '.button-next',
+      prevEl: '.button-prev',
+    },
+    pagination: {
+      el: '.sviper-pagination',
+      type: 'fraction',
+      renderFraction: function (currentClass, totalClass) {
+        return (
+          '<span class="' +
+          currentClass +
+          '"></span>' +
+          '<div class="box"></div>' +
+          '<span class="' +
+          totalClass +
+          '"></span>'
+        );
+      },
+    },
+  });
+</script>

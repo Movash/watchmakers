@@ -1,0 +1,222 @@
+
+
+/**-----------------hero ------------------*/ 
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+.container {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+.hero {
+    background-color: #141414;
+    padding-top: 69px;
+    padding-bottom: 40px;
+}
+
+.hero-name {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+
+}
+
+
+/* .slider-screen {
+    background-color: #1E2827;
+    max-width: 266px;
+    margin-bottom: 20px;
+}
+.digits-container {
+    display: flex;
+    align-items: flex-end;
+}
+.digits {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    
+}
+
+.create-line {
+    width: 32px;
+    border-top: 1px solid #ffffff;
+    padding-bottom: 9px;
+    margin-left: 6px;
+    margin-right: 6px;
+} */
+
+/* .slider-control {
+    display: flex;
+    justify-content: space-between;
+    max-width: 266px;
+    margin-bottom: 40px;
+} */
+.swiper-buttons {
+    display: flex;
+    gap: 12px
+    ;
+    width: 266px;
+    align-items: flex-end;
+
+}
+
+.hero-btn {
+    width: 32px;
+    height: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.hero-btn-active {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.left-btn {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.right-btn {
+    color: #ffffff; 
+}
+
+.just-text {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+.hero-text {
+    
+    max-width: 248px;
+    max-height: 108px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    
+}
+
+.swiper {
+    max-width: 226px;
+    max-height: 190px;
+}
+
+.televizor {
+    width: 266px;
+    height: 200px;
+    background-color: #1E2827;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.swiper-buttons {
+    margin-bottom: 40px;
+    justify-content: space-between;
+   
+}
+
+.box {
+
+    width: 40px;
+    border-top: 1px solid #FFFFFF;
+    margin: 0 6px;
+}
+
+.sviper-pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.swp {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    
+}
+
+.btn-wrp {
+    display: flex;
+    gap: 12px;
+}
+
+.swiper-slide {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+
+
+/* =====   media 375 px=================================================*/
+
+
+@media screen and (min-width: 375px) {
+
+
+    .container {
+        max-width: 375px;
+    }
+
+    .hero {
+        background-color: #141414;
+        max-width: 375px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)), url("../images/opt-bg-tablet-2x.jpg");
+        }
+    }
+
+}
+
