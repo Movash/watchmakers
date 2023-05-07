@@ -74,7 +74,9 @@ p {
     margin-right: 110px;
   }
   .about-us-desc-part-one {
-    margin-right: 40px;
+    width: 380px;
+
+    margin-right: 33px;
   }
   .about-us-desc-part-two {
     width: 380px;
