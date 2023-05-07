@@ -40,6 +40,7 @@
     font-size: 40px;
     margin-right: 40px;
     line-height: calc(44 / 40);
+    width: 174px;
   }
   .about-us-desc-part-one {
     margin-right: 20px;
@@ -56,9 +57,9 @@
     margin-right: 110px;
   }
   .about-us-desc-part-one {
-    width: 380px;
+    width: 439px;
 
-    margin-right: 33px;
+    margin-right: 40px;
   }
   .about-us-desc-part-two {
     width: 380px;
