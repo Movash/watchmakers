@@ -1,3 +1,48 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Epilogue', sans-serif;
+  color: #141414;
+  background-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
 .title {
     font-style: normal;
     font-weight: 300;
@@ -9,17 +54,15 @@ line-height: 14px;
 
 
 /* -------------telefon--------------------- */
+.container {
+    max-width: 375px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-
-@media screen and (min-width: 375px) {
-.container{ 
-  min-width:375px;
-  margin-left: 20px;
-  margin-right: 20px;
- 
-}
-
-.title {
+ .title {
     width: 85px;
     height: 14px;
     font-style: normal;
@@ -58,14 +101,14 @@ line-height: 14px;
 }
  /* ---------------tablet----------- */
 
-   
  @media screen and (min-width: 768px) {
-    
+
     .container {
-    min-width:768px ;
-     margin-left: 40px;
-      margin-right: 40px;
+      max-width: 768px;
+      padding-left: 32px;
+      padding-right: 32px;
     }
+
     
     .title {
   
@@ -115,15 +158,17 @@ color: #1E2827;
       margin-top: 128px;
     
     }
+}
     /* -----------------deskop-------------------- */
-@media screen and (min-width: 1280px) {
-    .container {
-        min-width:1280px;
-        margin-left: 132px;
-        margin-right: 132px;}
-        
+    @media screen and (min-width: 1280px) {
 
-.title {
+        .container {
+          max-width: 1280px;
+          padding-left: 52px;
+          padding-right: 52px;
+        }
+        
+   .title {
     width: 85px;
     height: 14px;
     font-style: normal;
@@ -164,3 +209,4 @@ color: #1E2827;
     gap: 24px;
     width: 1440px;
     }
+}
