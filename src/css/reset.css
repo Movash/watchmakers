@@ -9,10 +9,6 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -32,4 +28,44 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+body {
+  font-family: 'Epilogue', sans-serif;
+  color: #141414;
+  background-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 375px; 
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+
+.container {
+  max-width: 768px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+
+.container {
+  max-width: 1280px;
+  padding-left: 52px;
+  padding-right: 52px;
+}
 }
