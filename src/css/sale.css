@@ -1,0 +1,480 @@
+
+@media screen and (min-width: 375px) {
+    .container{ 
+      min-width:375px;
+      margin-left: 20px;
+      margin-right: 20px;
+     
+    }
+
+.divider {
+    min-width:375px;
+      margin-left: 20px;
+      margin-right: 20px;
+      
+    }
+  
+  .sale-section{
+          
+     padding-bottom: 80px;
+       
+     }
+     .sale-title{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 40px;
+        letter-spacing: -0.02em;
+        color: #141414;
+        padding-bottom:40px ;
+        padding-top: 80px;
+     }
+    .sale-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 10px;
+    }
+    
+    .big-img {
+      position: absolute;
+        width: 420px;
+        height: 628px;
+        left: 180px;
+        top: 1260px;
+        background:#141414
+        
+        
+    }
+    .saler-text {
+
+     padding-top:50px ;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 24px;
+     letter-spacing: -0.02em;
+     color: #141414;}
+
+     .sale-text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.02em;
+        color: rgba(20, 20, 20, 0.5);
+        
+     }
+     .sale-role{
+        font-style: normal;
+       font-weight: 400;
+        font-size: 18px;
+       line-height: 24px;
+       letter-spacing: -0.02em;
+       color: #141414;
+     }
+     .salen-text{
+      position: absolute;
+        left: 80px;
+        top: 2030px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+       letter-spacing: -0.02em;
+       text-decoration-line: line-through;
+
+      color: rgba(20, 20, 20, 0.5);
+     }
+     .line{
+        padding-top: 25px;
+        border-bottom: 1px solid black;
+         border-right: 
+          
+         }
+         .sale-watch {
+             
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+           letter-spacing: -0.02em;
+            text-transform: uppercase;
+            
+            }
+            .sale-description{
+          font-style: normal;
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 25px;
+         letter-spacing: -0.01em;
+         color: rgba(20, 20, 20, 0.5);
+            }
+
+         .active::after {
+            content: '';
+            position: absolute;
+            width: 16px;
+            height: 1px;
+            border-radius: 2px;
+            bottom: -1px;
+            left: 349px;
+        }
+        .line-2{
+            padding-top: 55px;
+            border-bottom: 1px solid black;
+            }
+        .details-text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+           letter-spacing: -0.02em;
+           text-transform: uppercase;
+        color: #141414;
+        }
+        .gender-text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 18px;
+           letter-spacing: -0.01em;
+         color: rgba(20, 20, 20, 0.5);
+        }
+        
+        ::after, ::before {
+            box-sizing: border-box;
+        }
+        .active::after{
+            background-color: #141414;
+        }
+}
+
+  /* ---------------tablet----------- */
+
+   
+  @media screen and (min-width: 768px) {
+    
+    .container {
+    min-width:768px ;
+     margin-left: 40px;
+      margin-right: 40px;
+    }
+    .divider {
+        min-width:768px;
+          margin-left: 32px;
+          margin-right: 32px;
+          
+        }
+      
+      .sale-section{
+              
+         padding-bottom: 80px;
+           
+         }
+         .sale-title{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 56px;
+            line-height: 40px;
+            letter-spacing: -0.02em;
+            color: #141414;
+            padding-bottom:40px ;
+            padding-top: 80px;
+         }
+        .sale-list {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 10px;
+        }
+        .sale-item{
+            padding-left: 98px;
+            
+        }
+        
+        .big-img {
+          position: absolute;
+            width: 440px;
+            height: 628px;
+            left: 311px;
+            top: 775px;
+            background:#141414
+            
+            
+        }
+        .saler-text {
+    
+         padding-top:50px ;
+         font-style: normal;
+         font-weight: 400;
+         font-size: 24px;
+         line-height: 24px;
+         letter-spacing: -0.02em;
+         color: #141414;}
+    
+         .sale-text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: -0.02em;
+            color: rgba(20, 20, 20, 0.5);
+            
+         }
+         .sale-role{
+            font-style: normal;
+           font-weight: 400;
+            font-size: 18px;
+           line-height: 24px;
+           letter-spacing: -0.02em;
+           color: #141414;
+         }
+         .salen-text{
+          position: absolute;
+            left: 100px;
+            top: 1525px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+           letter-spacing: -0.02em;
+           text-decoration-line: line-through;
+    
+          color: rgba(20, 20, 20, 0.5);
+         }
+         .line{
+            padding-top: 25px;
+            border-bottom: 1px solid rgb(0, 0, 0);
+            margin-right: 50px;
+             }
+             .sale-watch {
+                 
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 24px;
+               letter-spacing: -0.02em;
+                text-transform: uppercase;
+                
+                }
+                .sale-description{
+              font-style: normal;
+              margin-right: 50px;
+              font-weight: 400;
+              font-size: 19px;
+              line-height: 25px;
+             letter-spacing: -0.01em;
+             color: rgba(20, 20, 20, 0.5);
+                }
+    
+             
+            }
+            .line-2{
+                padding-top: 55px;
+                border-bottom: 1px solid black;
+                margin-right: 50px;
+            }
+            .details-text{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 24px;
+               letter-spacing: -0.02em;
+               text-transform: uppercase;
+            color: #141414;
+            }
+            .gender-text{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 19px;
+                line-height: 18px;
+               letter-spacing: -0.01em;
+             color: rgba(20, 20, 20, 0.5);
+            }
+            
+            ::after, ::before {
+                box-sizing: border-box;
+            }
+            .active::after{
+                background-color: #141414;
+            }
+            .active::after {
+                content: '';
+                position: absolute;
+                width: 16px;
+                height: 1px;
+                border-radius: 2px;
+                bottom: -30px;
+                left: 770px;
+            }
+        
+/* -----------------deskop-------------------- */
+@media screen and (min-width: 1280px) {
+    .container {
+        min-width:1280px;
+        margin-left: 132px;
+        margin-right: 132px;}
+        /* ------------------sale-------------------------- */
+.sale-section {
+    padding-bottom: 50px;
+      }
+ .divider {
+         position: absolute;
+         width: 369px;
+         height: 126px;
+         left: 841px;
+         top: 1092px;
+     
+     }
+ 
+ 
+     .saler-text {
+         position: absolute;
+        top: -200px; 
+         width: 369px;
+       height: 80px;
+      font-family: 'Epilogue';
+     font-style: normal;
+      font-weight: 400;
+      font-size: 38px;
+      line-height: 40px;
+       letter-spacing: -0.02em;
+        color: #141414;
+         }
+         
+         .sale-text {
+         position: absolute; 
+         top: -50px;
+         font-family: 'Epilogue';
+         font-size: 14px;
+         line-height: 18px;
+         letter-spacing: -0.02em;
+         color: #141414;
+         
+          }
+          .salen-text{
+         position: absolute; 
+         left: 50px;
+         top: 13px;
+         font-family: 'Epilogue';
+         font-size: 12px;
+         letter-spacing: -0.02em;
+         text-decoration-line: line-through;
+         color: #141414
+         border-bottom: solid 2px #e1e1e1;
+         
+          }
+          .line{
+         padding-top: 22px;
+         border-bottom: 1px solid black;
+           margin-right: 350px;
+          }
+         .sale-watch {
+         position: absolute; 
+         top: 100px;
+         font-weight: 400;
+         font-size: 18px;
+         line-height: 24px;
+         letter-spacing: -0.02em;
+         text-transform: uppercase;
+         color: #141414;
+             }
+             .active::after {
+                 content: '';
+                 position: absolute;
+                 width: 16px;
+                 height: 1px;
+                 border-radius: 2px;
+                 bottom: -1px;
+                 left: 349px;
+             }
+             
+             ::after, ::before {
+                 box-sizing: border-box;
+             }
+             .active::after{
+                 background-color: #141414;
+             }
+             
+             .sale-description {
+                 position: absolute; 
+                 top: 110px;
+                 margin-right: 350px;
+                 line-height: 18px;
+                 letter-spacing: -0.01em;
+                 color: rgba(20, 20, 20, 0.5);
+                 }
+              .line-2{
+             padding-top: 260px;
+             border-bottom: 1px solid black;
+             margin-right: 350px;
+             }
+         
+             .details-text {
+             position: absolute;   
+             top: 300px;
+             width: 198px;
+             height: 24px;
+            font-family: 'Epilogue';
+            font-style: normal;
+            font-weight: 400;
+             font-size: 16px;
+            line-height: 20px;
+            letter-spacing: -0.02em;
+           text-transform: uppercase;
+            color: #141414;}
+ 
+         .sale-list {
+          padding-left: 97px;
+          padding-top: 80px;
+         }
+         
+         
+         
+         .sale-item {
+             padding: 3px; ;
+         
+         }
+         .big-img{
+         position: absolute;
+         width: 406px;
+         height: 640px;
+         left: 400px;
+         top: 940px;
+         
+         background:#141414
+             
+         }
+         
+         .sale-role {
+         width: 40px;
+         height: 24px;
+         font-family: 'Epilogue';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 18px;
+         line-height: 24px;
+         letter-spacing: -0.02em;
+         color: #141414;
+         
+         }
+         
+         .gender-text {
+             position: absolute;
+             top: 315px;
+             font-size: 14px;
+           letter-spacing: -0.01em;
+            color: rgba(20, 20, 20, 0.5);
+            padding-top: 1px;
+            column-count: 1;
+            line-height: 0.2;  
+         
+         
+         
+         }
+ 
+ }
+    

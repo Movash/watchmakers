@@ -1,0 +1,166 @@
+.title {
+    font-style: normal;
+    font-weight: 300;
+    
+line-height: 14px;
+    letter-spacing: 0.06em;
+    color: rgba(20, 20, 20, 0.4);rgba(20, 20, 20, 0.4)
+      }
+
+
+/* -------------telefon--------------------- */
+
+
+@media screen and (min-width: 375px) {
+.container{ 
+  min-width:375px;
+  margin-left: 20px;
+  margin-right: 20px;
+ 
+}
+
+.title {
+    width: 85px;
+    height: 14px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.06em;
+    color: rgba(20, 20, 20, 0.4)
+}
+    .my-new-watch {
+        width: 335px;
+        height: 120px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+       letter-spacing: -0.02em;
+       color: #141414;
+    }
+
+.new-watch {
+  margin-top: 80px;
+  padding-bottom: 10px;
+}
+
+.new-watch-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
+
+.new-watch-list {
+  margin-top: 20px;
+}
+ /* ---------------tablet----------- */
+
+   
+ @media screen and (min-width: 768px) {
+    
+    .container {
+    min-width:768px ;
+     margin-left: 40px;
+      margin-right: 40px;
+    }
+    
+    .title {
+  
+width: 85px;
+height: 14px;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.06em;
+color: rgba(20, 20, 20, 0.4);
+}
+ .my-new-watch {
+    width: 448px;
+   height: 88px;
+   font-family: 'Epilogue';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 44px;
+letter-spacing: -0.02em;
+color: #1E2827;
+    }
+
+    .img-watch{
+        width: 350px;
+  height: auto;
+    }
+    .new-watch-list li{
+        width: calc((100%-90px));
+    }
+    .new-watch {
+      margin-top: 128px;
+    
+    }
+    
+    .new-watch-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    }
+    
+    .new-watch-list {
+      margin-top: 128px;
+    
+    }
+    /* -----------------deskop-------------------- */
+@media screen and (min-width: 1280px) {
+    .container {
+        min-width:1280px;
+        margin-left: 132px;
+        margin-right: 132px;}
+        
+
+.title {
+    width: 85px;
+    height: 14px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    color: rgba(20, 20, 20, 0.4);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    .new-watch{
+      margin-top: 80px;
+    }
+    .my-new-watch {
+        
+    width: 448px;
+    font-family: 'Epilogue';
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #1E2827;
+    margin-top: 8px;
+    }
+    .img-watch{
+        Width:576px;
+        Height:422px;
+    }
+    
+    
+    .new-watch-list {
+        margin-top: 80px;
+       
+    }
+    .new-watch-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    width: 1440px;
+    }
