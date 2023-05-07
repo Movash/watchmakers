@@ -13,53 +13,41 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-body {
-  font-family: 'Epilogue', sans-serif;
-  font-style: normal;
-  color: #141414;
-  margin: 0;
-}
-.container {
-  padding-left: 20px;
-  padding-right: 20px;
-}
 /* ===========================About Us Section========================== */
+.section-name {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: calc(40 / 32);
+  letter-spacing: -0.02em;
+  color: #1e2827;
+  margin-bottom: 40px;
+}
+.about-us-desc {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.02em;
+  color: #141414;
+}
 @media screen and (max-width: 767px) {
   .container {
     width: 375px;
     margin-right: auto;
     margin-left: auto;
   }
-  .section-name {
-    font-weight: 600;
-    font-size: 32px;
-    line-height: calc(40 / 32);
-    letter-spacing: -0.02em;
-    color: #1e2827;
-    margin-bottom: 40px;
-  }
-  .about-us-desc {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: calc(18 / 14);
-    letter-spacing: -0.02em;
-    color: #141414;
-  }
+
   .about-us-desc-part-one {
     margin-bottom: 20px;
   }
   .about-us-desc-part-two {
     margin-bottom: 40px;
   }
+  .about-us-watches-pic {
+    height: 465px;
+    object-fit: cover;
+  }
 }
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-    margin-right: auto;
-    margin-left: auto;
-  }
   .about-us-all-text-wrapper {
     display: flex;
     margin-bottom: 40px;
@@ -79,9 +67,6 @@ body {
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
-    width: 1280px;
-  }
   .pic-wrapper {
     display: block;
   }
@@ -91,8 +76,12 @@ body {
   .about-us-desc-part-one {
     margin-right: 40px;
   }
+  .about-us-desc-part-two {
+    width: 380px;
+    margin-right: 33px;
+  }
   .about-us-watches-pic {
     margin-left: auto;
-    width: 77%;
+    height: 500px;
   }
 }
