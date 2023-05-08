@@ -19,6 +19,10 @@ h4 {
   display: none;
 }
 
+.tablet-boottom-pic1 {
+  display: none;
+}
+
 .container {
   width: 100%;
   padding: 0 20px;
@@ -330,9 +334,9 @@ img {
     padding: 0 132px;
   }
 
-.tablet-boottom-pic {
-  display: none;
-}
+  .tablet-boottom-pic {
+    display: none;
+  }
 
   
 
@@ -348,6 +352,10 @@ img {
   .no5 {
     display: block;
   }
+
+  .tablet-boottom-pic1 {
+      display: block;
+    }
   
   .hero-name {
     max-width: 750px;
