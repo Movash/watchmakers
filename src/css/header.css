@@ -1,0 +1,211 @@
+:root {
+--transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-header {
+    padding-top: 29px;
+    padding-bottom: 29px;
+    background-color: #141414;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: end;
+}
+
+.header-logo-image {
+    width: 14px;
+    margin-right: 4px;
+}
+
+.header-logo-name {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    min-width: 80px;
+}
+
+@media screen and (max-width: 767px) {
+
+.header-menu {
+    display: none;
+}
+
+.header-address {
+    display: none;
+}
+
+.header-mobile-menu-icon {
+    fill: #ffffff;
+}
+
+.header-mobile-menu-open {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+}
+
+/* ================= BURGER MODAL ================*/
+
+.header-mobile-menu {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    top: 0;
+    left: 100%;
+    background-color: #1E2827;
+    padding-top: 29px;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity var(--transition-dur-and-func),
+    visibility var(--transition-dur-and-func), left var(--transition-dur-and-func);
+}
+
+.header-mobile-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    left: 0;
+}
+
+.header-mobile-menu-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-modal-top-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.modal-close-btn {
+    background-color: transparent;
+    border: none;
+    line-height: 0;
+    padding: 6px 6px;
+}
+
+.modal-close-btn-icon {
+    fill: #FFFFFF;
+}
+
+.burger-item:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+.burger-menu {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.burger-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    /* transition: color var(--transition-dur-and-func); */
+}
+
+/* .burger-link:hover,
+.burger-link:focus {
+    color: var(--accent-color);
+} */
+}
+
+/* ================= /BURGER MODAL ================*/
+
+@media screen and (min-width: 768px) {
+
+.page-header {
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+.header-mobile-menu {
+    display: none;
+}
+
+.header-mobile-menu-open {
+    display: none;
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo-link {
+    margin-right: 80px;
+}
+
+.header-logo-image {
+    width: 19px;
+}
+
+.header-logo-name {
+    font-size: 15px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.header-menu-link {
+    font-size: 9px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    /* transition: color var(--transition-dur-and-func); */
+}
+
+/* .header-menu-link:hover,
+.header-menu-link:focus {
+    color: var(--accent-color);
+} */
+
+.header-address {
+    line-height: 0;
+}
+
+.header-contact {
+    font-size: 9px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    padding: 18px 36px;
+    background: #1E2827;
+    border-radius: 8px;
+    /* transition: color var(--transition-dur-and-func); */
+}
+
+/* .header-contact:hover,
+.header-contact:focus {
+    color: var(--accent-color);
+} */
+}
