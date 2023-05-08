@@ -181,8 +181,17 @@ ul {
     min-width: 81px;
   }
   .footer-down-p {
-    margin-left: 0 auto;
+    margin-right: 18px;
   }
+
+  .footer-down-a {
+    margin-right: auto;
+  }
+
+  .footer-down-t {
+    margin-right: 0;
+  }
+
   .soc-foot {
     margin-left: 0;
   }
