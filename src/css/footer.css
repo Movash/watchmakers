@@ -1,0 +1,166 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.item {
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #1e2827;
+}
+
+.text-footer {
+  font-family: 'Epilogue';
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.about-list {
+  font-family: 'Epilogue';
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.footer-down {
+  font-family: 'Epilogue';
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(198, 205, 209, 1);
+}
+
+.footer-tel {
+  font-family: 'Epilogue';
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ffffff;
+  display: block;
+}
+
+.soc {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  display: block;
+}
+
+.soc-foot {
+  display: block;
+  gap: 16px;
+}
+
+.soc-list {
+  display: flex;
+}
+
+.list-footer-down {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #c6cdd1;
+}
+
+@media screen and (min-width: 428px) {
+  .footer {
+    padding: 40px 20px 20px 20px;
+  }
+  .foot-one {
+    display: flex;
+  }
+  .list-footer-down-one {
+    display: block;
+    display: flex;
+  }
+
+  .footer-down {
+    margin-right: 14px;
+  }
+
+  .footer-tel {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .list-f-one {
+    margin-right: 136px;
+    padding-left: 0;
+  }
+
+  .soc-list {
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+
+  .footer-down {
+    margin-bottom: 14px;
+  }
+  .about-list {
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 80px 40px 20px 32px;
+  }
+  .foot-two {
+    display: flex;
+  }
+  .list-footer-down {
+    display: flex;
+  }
+  .list-f-two {
+    margin-right: 160px;
+  }
+  .list-f-one {
+    margin-right: 142px;
+    margin-bottom: 152px;
+  }
+  .footer-down-a {
+    margin-right: 200px;
+  }
+  .footer-down-p {
+    margin-right: 18px;
+  }
+  .soc-foot {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .footer {
+    padding: 104px 132px 32px 132px;
+  }
+  .list-f-one {
+    margin-bottom: 172px;
+    margin-right: 355px;
+    min-width: 175px;
+  }
+
+  .list-f-two {
+    min-width: 81px;
+  }
+  .footer-down-p {
+    margin-left: 0 auto;
+  }
+  .soc-foot {
+    margin-left: 0;
+  }
+}
