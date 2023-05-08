@@ -57,7 +57,9 @@ ul {
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .soc-foot {
@@ -75,6 +77,16 @@ ul {
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #c6cdd1;
+}
+
+.soc-foot {
+  fill: #ffffff;
+}
+
+.svg-foot {
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 428px) {
@@ -135,12 +147,23 @@ ul {
   }
   .footer-down-a {
     margin-right: 200px;
+    min-width: 279px;
+  }
+  .footer-down-t {
+    min-width: 111px;
   }
   .footer-down-p {
     margin-right: 18px;
+    min-width: 88px;
   }
   .soc-foot {
     margin-top: 0;
+  }
+  .text-footer {
+    min-width: 175px;
+  }
+  .about-list {
+    min-width: 81px;
   }
 }
 
