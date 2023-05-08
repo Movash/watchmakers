@@ -25,6 +25,12 @@
     width: 276px;
     height: 274px;
 }
+.heart-icon{
+    fill: rgba(20, 20, 20, 0.1);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 .description-watch{
     max-width: 280px;
     white-space: nowrap; 
