@@ -15,6 +15,10 @@ h4 {
   display: none;
 }
 
+.no5 {
+  display: none;
+}
+
 .container {
   width: 100%;
   padding: 0 20px;
@@ -222,6 +226,7 @@ img {
       max-width: 768px;
       margin: 0 auto;
       background-color: #141414;
+      padding-bottom: 64px;
     }
   
     .container {
@@ -324,6 +329,14 @@ img {
     max-width: 1440px;
     padding: 0 132px;
   }
+
+.tablet-boottom-pic {
+  display: none;
+}
+
+  
+
+
   .no3 {
     display: block;
   }
@@ -331,6 +344,11 @@ img {
   .no4 {
     display: none;
   }
+
+  .no5 {
+    display: block;
+  }
+  
   .hero-name {
     max-width: 750px;
     font-size: 60px;
@@ -345,10 +363,15 @@ img {
   }
   .wrap-bottom-desktop {
     display: flex;
+    justify-content: space-between;
   
   }
   .wrap-televozor {
     margin-top: 69px;
   }
+
+  .wrap768 {
+    gap: 0;
+    }
 
 }
