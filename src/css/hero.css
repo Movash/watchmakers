@@ -7,6 +7,10 @@ h4 {
   margin: 0;
 }
 
+.no {
+  display: none;
+}
+
 .container {
   width: 100%;
   padding: 0 20px;
@@ -149,6 +153,7 @@ img {
   max-width: 100%;
   height: auto;
   width: 100%;
+
   
 }
 
@@ -171,7 +176,9 @@ img {
 }
 
 
-
+.no2 {
+  display: none;
+}
 
 
 
@@ -183,6 +190,7 @@ img {
 
 
 @media screen and (min-width: 375px) {
+
 
 
   .container {
@@ -212,10 +220,36 @@ img {
         max-width: 768px;
           padding: 0 32px;
       }
+
+    .hero {
+      width: 768px;
+      margin: 0 auto;
+    }
+
+    .no1 {
+      display: none;
+    }
+
+    .no2 {
+      display: block;
+    }
+
+    .sviper-pagination1 {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      color: #FFFFFF;
+    }
+
     .wrap768 {
       display: flex;
       gap: 20px;
       
+    }
+
+    .flextelevizor {
+      display: block;
+
     }
 
     .hero-name {
@@ -224,14 +258,26 @@ img {
       line-height: 1.03;
     }
 
+    .swiper {
+      max-width: 348px;
+      max-height: 233px;
+    }
+
     .televizor {
       width: 436px;
       height: 255px;
       background-color: #1E2827;
       padding: 11px 44px;
-      margin-bottom: 31px;
+      margin-bottom: 20px;
     
     }
+
+    .slid-pic {
+      width: 348px;
+      height: 233px;
+    }
+
+
 
     .just-text {
       margin-top: 70px;

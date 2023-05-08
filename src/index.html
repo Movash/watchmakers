@@ -47,7 +47,7 @@
 
     <!-- Initialize Swiper -->
     <script>
-      const swiper = new Swiper('.mySwiper', {
+      var swiper = new Swiper('.mySwiper', {
         slidePerView: 1,
         spaceBetween: 10,
         loop: true,
@@ -69,6 +69,34 @@
               '<div class="box"></div>' +
               '<span class="' +
               totalClass +
+              '"></span>'
+            );
+          },
+        },
+      });
+
+      var swiper2 = new Swiper('.mySwiper1', {
+        slidePerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        keyboard: {
+          enabled: true,
+        },
+        navigation: {
+          nextEl: '.button-next1',
+          prevEl: '.button-prev1',
+        },
+        pagination: {
+          el: '.sviper-pagination1',
+          type: 'fraction',
+          renderFraction: function (currentClass1, totalClass1) {
+            return (
+              '<span class="' +
+              currentClass1 +
+              '"></span>' +
+              '<div class="box"></div>' +
+              '<span class="' +
+              totalClass1 +
               '"></span>'
             );
           },
