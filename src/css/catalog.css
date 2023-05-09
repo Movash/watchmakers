@@ -55,7 +55,7 @@
     position: absolute;
     right: 0;
     bottom: -82px;
-
+    margin-right: 20px;
 }
 .modal-btn{
     font-size: 12px;
@@ -140,6 +140,9 @@
     .img-wrap{
         margin: 43px 30px 57px;
     }
+    .modal-btn-open{
+        margin-right: 32px;
+    }
 }
 
 /* -------DESCTOP 1280 -----*/
@@ -158,5 +161,8 @@
     }
     .description-watch{
         max-width: 276px;
+    }
+    .modal-btn-open{
+        margin-right: 52px;
     }
 }
