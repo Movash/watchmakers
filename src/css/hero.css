@@ -139,6 +139,8 @@ img {
   justify-content: flex-end;
   align-items: center;
   color: #FFFFFF;
+  font-size: 14px;
+  line-height: 1.29;
 }
 
 .swp {
@@ -247,6 +249,8 @@ img {
     justify-content: flex-end;
     align-items: center;
     color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.29;
   }
 
   .wrap768 {
