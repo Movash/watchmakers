@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="icon" type="image/svg+xml" href="/watchmakers/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Watchmakers</title>
@@ -19,9 +19,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Swiper підключення -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
     
     <script type="module" crossorigin src="/watchmakers/assets/index-9e7e905a.js"></script>
-    <link rel="stylesheet" href="/watchmakers/assets/index-7bfcdc93.css">
+    <link rel="stylesheet" href="/watchmakers/assets/index-d96fe790.css">
   </head>
   <body>
         <header class="page-header">
@@ -68,7 +74,213 @@
         </div>
     </header>
     <main>
-      
+      <section class="hero">
+  <div class="container">
+    <div class="wrap-desktop-name">
+      <h1 class="hero-name">Welcome to our collection of premium watches</h1>
+      <div class="just-text-desktop">
+        <p class="hero-text no3">
+          Our watches are not just timepieces, but also an expression of your
+          personality and lifestyle. From classic designs to modern ones, we
+          have a watch to suit every taste and occasion.
+        </p>
+      </div>
+    </div>
+    <!-- Slider -->
+    <div class="wrap-bottom-desktop">
+      <div class="wrap768">
+        <div class="wrap-televozor no1">
+          <div class="televizor">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide num1">
+                  <img
+                    class="slid-pic"
+                    src="../img/hero-slider-5.png"
+                    srcset="../img/hero-slider-5-2x.png 2x"
+                    alt="watch image 1"
+                  />
+                </div>
+                <div class="swiper-slide num2">
+                  <img
+                    class="slid-pic"
+                    src="../img/hero-slider-1.png"
+                    srcset="../img/hero-slider-1-2x.png 2x"
+                    alt="watch image 2"
+                  />
+                </div>
+                <div class="swiper-slide num3">
+                  <img
+                    class="slid-pic"
+                    src="../img/hero-slider-2.png"
+                    srcset="../img/hero-slider-2-2x.png 2x"
+                    alt="watch image 3"
+                  />
+                </div>
+                <div class="swiper-slide num4">
+                  <img
+                    class="slid-pic"
+                    src="../img/hero-slider-3.png"
+                    srcset="../img/hero-slider-3-2x.png 2x"
+                    alt="watch image 4"
+                  />
+                </div>
+                <div class="swiper-slide num5">
+                  <img
+                    class="slid-pic"
+                    src="../img/hero-slider-4.png"
+                    srcset="../img/hero-slider-4-2x.png 2x"
+                    alt="watch image 5"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-buttons">
+            <div class="btn-wrp">
+              <div class="button-prev">
+                <button class="hero-btn" type="button">
+                  <span class="left-btn">
+                    <svg class="btn-pic" width="10" height="20">
+                      <use href="../img/icons.svg#left-arrow"></use>
+                    </svg>
+                  </span>
+                </button>
+              </div>
+              <div class="button-next">
+                <button class="hero-btn" type="button">
+                  <span class="right-btn">
+                    <svg class="btn-pic" width="10" height="20">
+                      <use href="../img/icons.svg#right-arrow"></use>
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="spw">
+              <div class="sviper-pagination">
+                <div class="box"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="wrap-televozor no2">
+          <div class="televizor">
+            <div class="swiper mySwiper1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide num1">
+                  <img
+                    class="slid-pic"
+                    src="../img/tablet-slider-1.png"
+                    srcset="../img/tablet-slider-1-2x.png 2x"
+                    alt="watch image 1"
+                  />
+                </div>
+                <div class="swiper-slide num2">
+                  <img
+                    class="slid-pic"
+                    src="../img/tablet-slider-2.png"
+                    srcset="../img/tablet-slider-2-2x.png 2x"
+                    alt="watch image 2"
+                  />
+                </div>
+                <div class="swiper-slide num3">
+                  <img
+                    class="slid-pic"
+                    src="../img/tablet-slider-3.png"
+                    srcset="../img/tablet-slider-3-2x.png 2x"
+                    alt="watch image 3"
+                  />
+                </div>
+                <div class="swiper-slide num4">
+                  <img
+                    class="slid-pic"
+                    src="../img/tablet-slider-4.png"
+                    srcset="../img/tablet-slider-4-2x.png 2x"
+                    alt="watch image 4"
+                  />
+                </div>
+                <div class="swiper-slide num5">
+                  <img
+                    class="slid-pic"
+                    src="../img/tablet-slider-5.png"
+                    srcset="../img/tablet-slider-5-2x.png 2x"
+                    alt="watch image 5"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-buttons">
+            <div class="btn-wrp">
+              <div class="button-prev1">
+                <button class="hero-btn" type="button">
+                  <span class="left-btn">
+                    <svg class="btn-pic" width="10" height="20">
+                      <use href="../img/icons.svg#left-arrow"></use>
+                    </svg>
+                  </span>
+                </button>
+              </div>
+              <div class="button-next1">
+                <button class="hero-btn" type="button">
+                  <span class="right-btn">
+                    <svg class="btn-pic" width="10" height="20">
+                      <use href="../img/icons.svg#right-arrow"></use>
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="spw">
+              <div class="sviper-pagination1">
+                <div class="box"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="just-text">
+          <p class="hero-text no4">
+            Our watches are not just timepieces, but also an expression of your
+            personality and lifestyle. From classic designs to modern ones, we
+            have a watch to suit every taste and occasion.
+          </p>
+        </div>
+      </div>
+
+      <div class="bottom-pic no1">
+        <img
+          src="../img/hero-pic.jpg"
+          srcset="../img/hero-pic-2x.jpg 2x"
+          alt="watch on hand"
+        />
+      </div>
+      <div class="bottom-pic no2">
+        <img
+          class="tablet-boottom-pic"
+          src="../img/tablet-boottom-pic.jpg"
+          srcset="../img/tablet-boottom-pic-2x.jpg 2x"
+          alt="watch on hand"
+          width="704"
+          height="410"
+        />
+      </div>
+      <div class="bottom-pic no2">
+        <img
+          class="tablet-boottom-pic1"
+          src="../img/desktop-hand.jpg"
+          srcset="../img/desktop-hand-2x.jpg 2x"
+          alt="watch on hand"
+          width="676"
+          height="394"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
       
       
       
@@ -79,5 +291,67 @@
     
 
     
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        slidePerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        keyboard: {
+          enabled: true,
+        },
+        navigation: {
+          nextEl: '.button-next',
+          prevEl: '.button-prev',
+        },
+        pagination: {
+          el: '.sviper-pagination',
+          type: 'fraction',
+          renderFraction: function (currentClass, totalClass) {
+            return (
+              '0<span class="' +
+              currentClass +
+              '"></span>' +
+              '<div class="box"></div>' +
+              '0<span class="' +
+              totalClass +
+              '"></span>'
+            );
+          },
+        },
+      });
+
+      var swiper2 = new Swiper('.mySwiper1', {
+        slidePerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        keyboard: {
+          enabled: true,
+        },
+        navigation: {
+          nextEl: '.button-next1',
+          prevEl: '.button-prev1',
+        },
+        pagination: {
+          el: '.sviper-pagination1',
+          type: 'fraction',
+          renderFraction: function (currentClass1, totalClass1) {
+            return (
+              '0<span class="' +
+              currentClass1 +
+              '"></span>' +
+              '<div class="box"></div>' +
+              '0<span class="' +
+              totalClass1 +
+              '"></span>'
+            );
+          },
+        },
+      });
+    </script>
   </body>
 </html>
