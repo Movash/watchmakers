@@ -93,6 +93,7 @@ body {
   }
   .old-price {
     display: flex;
+    margin-top: 6px;
     vertical-align: bottom;
 
     text-decoration: line-through;
@@ -119,6 +120,21 @@ body {
     letter-spacing: -0.01em;
     color: rgba(20, 20, 20, 0.5);
     margin-bottom: 40px;
+  }
+  .underline {
+    border-bottom: 1px solid #141414;
+    margin-bottom: 8px;
+  }
+  .padding {
+    padding-bottom: 40px;
+  }
+  .sale-section-decor {
+    margin-left: auto;
+    border-bottom: 1px solid #141414;
+    margin-top: 12px;
+  }
+  .decor-wrapper {
+    display: flex;
   }
 }
 @media screen and (min-width: 768px) {
@@ -192,7 +208,7 @@ body {
   }
   .old-price {
     display: flex;
-    vertical-align: bottom;
+    margin-top: 6px;
 
     text-decoration: line-through;
     font-weight: 400;
@@ -219,7 +235,23 @@ body {
     color: rgba(20, 20, 20, 0.5);
     margin-bottom: 40px;
   }
+  .underline {
+    border-bottom: 1px solid #141414;
+    margin-bottom: 8px;
+  }
+  .padding {
+    padding-bottom: 40px;
+  }
+  .sale-section-decor {
+    margin-left: auto;
+    border-bottom: 1px solid #141414;
+    margin-top: 12px;
+  }
+  .decor-wrapper {
+    display: flex;
+  }
 }
+
 @media screen and (min-width: 1280px) {
   .container {
     width: 100%;
