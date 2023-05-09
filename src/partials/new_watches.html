@@ -4,15 +4,36 @@
         <h3 class="my-new-watch"> Green And Bronze—The Match Made In Heaven</h3>
         <ul class="new-watch-list list">
           <li class="new-watch-item">
-            <img class="img-watch"
-            src="./img/hand-watch.jpg"
-            alt="hand-watch"
-            srcset="./img/hand-watch-x2.jpg 2x"
-            />
-            <img class="img-watch"
-            src="./img/watch.jpg" alt="watch-Roger Dubus"
-            srcset="./img/watch-x2.jpg 2x"
-            />
+           <picture>
+
+               <source width="576" height="422"
+               media="(min-width: 1280px)"
+                 srcset="../img/hand-watch.jpg 1x, ../img/hand-watch-x2.jpg 2x">
+                    <source width="342" height="260"
+                    media="(min-width: 768px)"
+                     srcset="../img/hand-watch-tablet.jpg 1x, ../img/hand-watch-tablet-2x.jpg 2x ">
+                     <source width="335" height="260"
+                     media="(max-width: 767px)"
+                     srcset="../img/hand-watch.jpg , ../img/hand-watch-x2.jpg 2x">
+                     <img srcset="../img/hand-watch-x2.jpg 2x " src="../img/hand-watch.jpg"
+                     alt="example banking app" width="576" height="422" />
+                    </picture>
+                    <picture>
+                   
+                    <source width="576" height="422"
+                    media="(min-width: 1280px)"
+                    srcset=" ../img/watch.jpg 1x,  ../img/watch-x2.jpg 2x">
+                    <source width="342" height="260"
+                    media="(min-width: 768px)"
+                    srcset="../img/watch-tablet.jpg 1x, ../img/watch-tablet-x2.jpg 2x ">
+                    <source width="335" height="260"
+                    media="(max-width: 767px)"
+                    srcset="../img/watch-telef.jpg 1x, ../img/watch-telef-x2.jpg 2x">
+                    <img 
+                    srcset=".. /img/watch-x2.jpg 2x " src=".. /img/watch.jpg"
+                    alt="example banking app" width="576" height="422" />
+                    </picture>
+                  
           </li>
         </ul>
     </div>
