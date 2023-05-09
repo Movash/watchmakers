@@ -1,10 +1,17 @@
+ul{
+    box-sizing: unset;
+}
+img{
+    box-sizing: unset;
+}
+div{
+    box-sizing: unset;
+}
 /* -------MOBILE 320------ */
 .catalog{
     padding-bottom: 80px;
 }
-.container{
-    width: 280px;
-    padding: 0;
+.container-catalog{
     position: relative;
 }
 .secondary-title{
@@ -124,21 +131,9 @@
   }
 
 
-  /* -------MOBILE 375 -----*/
-@media screen and (min-width: 375px) {
-    
-  .container{
-    width: 335px;
-   margin: 0 auto;
-  }
-  
-}
 
 /* -------TABLET 768 -----*/
 @media screen and (min-width: 768px) {
-    .container{
-        width: 704px;
-    }
     .secondary-title{
         font-size: 40px;
         line-height: 1.1;
@@ -156,9 +151,6 @@
 
 /* -------DESCTOP 1280 -----*/
 @media screen and (min-width: 1280px) {
-    .container{
-        width: 1176px;
-    }
     .catalog-watches-item:nth-child(n + 9){
         display: block;
     }
