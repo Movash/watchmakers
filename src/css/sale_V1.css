@@ -60,6 +60,7 @@ body {
     gap: 10px;
     margin-top: 0;
     margin-bottom: 0;
+    padding-left: 0;
   }
   .sale-watches-model {
     display: inline-block;
@@ -175,6 +176,7 @@ body {
     gap: 10px;
     margin-top: 0;
     margin-bottom: 0;
+    padding-left: 0;
   }
   .sale-watches-model {
     display: inline-block;
