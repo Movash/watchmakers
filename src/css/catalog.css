@@ -1,12 +1,4 @@
-ul{
-    box-sizing: unset;
-}
-img{
-    box-sizing: unset;
-}
-div{
-    box-sizing: unset;
-}
+
 /* -------MOBILE 320------ */
 .catalog{
     padding-bottom: 80px;
@@ -63,6 +55,7 @@ div{
     position: absolute;
     right: 0;
     bottom: -82px;
+
 }
 .modal-btn{
     font-size: 12px;
