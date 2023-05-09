@@ -1,212 +1,51 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-body {
-  font-family: 'Epilogue', sans-serif;
-  color: #141414;
-  background-color: #ffffff;
-}
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.title {
-    font-style: normal;
-    font-weight: 300;
+@media screen and (min-width: 375px) {
     
-line-height: 14px;
-    letter-spacing: 0.06em;
-    color: rgba(20, 20, 20, 0.4);rgba(20, 20, 20, 0.4)
-      }
-
-
-/* -------------telefon--------------------- */
-.container {
-    max-width: 375px; 
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
+     
+    
+    
+  .new-watch-title{
+   padding-top: 10px;
+    }
+    
+  .item-wrapp{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    gap: 20px;
+    }
+    img {
+      margin-bottom: 20px;
+    }
   }
-
- .title {
-    width: 85px;
-    height: 14px;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.06em;
-    color: rgba(20, 20, 20, 0.4)
-}
-    .my-new-watch {
-        width: 335px;
-        height: 120px;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 32px;
-        line-height: 40px;
-       letter-spacing: -0.02em;
-       color: #141414;
-    }
-
-.new-watch {
-  margin-top: 80px;
-  padding-bottom: 10px;
-}
-
-.new-watch-item {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 20px;
-}
-
-.new-watch-list {
-  margin-top: 20px;
-}
- /* ---------------tablet----------- */
-
- @media screen and (min-width: 768px) {
-
-    .container {
-      max-width: 768px;
-      padding-left: 32px;
-      padding-right: 32px;
-    }
-
     
-    .title {
+    
   
-width: 85px;
-height: 14px;
-font-family: 'Epilogue';
-font-style: normal;
-font-weight: 300;
-font-size: 12px;
-line-height: 14px;
-letter-spacing: 0.06em;
-color: rgba(20, 20, 20, 0.4);
-}
- .my-new-watch {
-    width: 448px;
-   height: 88px;
-   font-family: 'Epilogue';
-font-style: normal;
-font-weight: 600;
-font-size: 40px;
-line-height: 44px;
-letter-spacing: -0.02em;
-color: #1E2827;
-    }
+  /* ---------------tablet----------- */
 
-    .img-watch{
-        width: 350px;
-  height: auto;
-    }
-    .new-watch-list li{
-        width: calc((100%-90px));
-    }
-    .new-watch {
-      margin-top: 128px;
+   
+  @media screen and (min-width: 768px) {
     
-    }
-    
-    .new-watch-item {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 20px;
-    }
-    
-    .new-watch-list {
-      margin-top: 128px;
-    
+      
+  .new-watch-title{
+ padding-top: 30px;
+  }
+  
+.item-wrapp{
+  padding-top: 40px;
+  display: flex;
+   gap: 20px;
     }
 }
-    /* -----------------deskop-------------------- */
-    @media screen and (min-width: 1280px) {
 
-        .container {
-          max-width: 1280px;
-          padding-left: 52px;
-          padding-right: 52px;
-        }
+/* -----------------deskop-------------------- */
+@media screen and (min-width: 1280px) {
+
         
-   .title {
-    width: 85px;
-    height: 14px;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    letter-spacing: 0.06em;
-    color: rgba(20, 20, 20, 0.4);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    }
-    .new-watch{
-      margin-top: 80px;
-    }
-    .my-new-watch {
-        
-    width: 448px;
-    font-family: 'Epilogue';
-    font-size: 40px;
-    line-height: 44px;
-    letter-spacing: -0.02em;
-    color: #1E2827;
-    margin-top: 8px;
-    }
-    .img-watch{
-        Width:576px;
-        Height:422px;
-    }
-    
-    
-    .new-watch-list {
-        margin-top: 80px;
-       
-    }
-    .new-watch-item {
+  .item-wrapp{
+  padding-bottom: 80px;
     display: flex;
-    align-items: flex-start;
-    gap: 24px;
-    width: 1440px;
+   gap: 24px;
     }
-}
+    .new-watch-title{
+      padding-top: 80px;
+     }
+  }
