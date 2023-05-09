@@ -1,0 +1,74 @@
+/* -------------telefon--------------------- */
+
+.new-watch {
+    padding-bottom: 8px;
+  }
+  
+  .title {
+    min-width: 85px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.06em;
+    color: rgba(20, 20, 20, 0.4)
+  }
+  
+  .my-new-watch {
+    width: 335px;
+    height: 120px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #141414;
+    margin-bottom: 40px;
+  }
+  
+  .new-watch-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+  }
+  
+  /* ---------------tablet----------- */
+  
+  @media screen and (min-width: 768px) {
+  
+  .my-new-watch {
+    min-width: 448px;
+    height: 88px;
+    font-size: 40px;
+    line-height: 1.1;
+    color: #1E2827;
+  }
+  
+  .img-watch{
+    width: 342px;
+    height: 260px;
+  }
+  
+  .new-watch-item {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  }
+  
+  /* -----------------deskop-------------------- */
+  
+  @media screen and (min-width: 1280px) {
+  
+  .img-watch{
+    width:576px;
+    height:422px;
+  }
+  
+  .my-new-watch {
+  margin-bottom: 80px;
+  }
+  
+  .new-watch-item {
+    gap: 24px;
+  }
+  }
