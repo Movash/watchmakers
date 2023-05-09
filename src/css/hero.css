@@ -23,11 +23,6 @@ h4 {
   display: none;
 }
 
-.container {
-  width: 100%;
-  padding: 0 20px;
-  margin: 0 auto;
-}
 
 .is-hidden {
   opacity: 0;
@@ -202,19 +197,8 @@ img {
   .hero {
     max-width: 100%;
     margin: 0 auto;
-  }
-
-  .container {
-    max-width: 375px;
-  }
-
-  .hero {
     background-color: #141414;
-    /* max-width: 375px; */
   }
-
-
-  
 
 }
 
@@ -229,13 +213,6 @@ img {
     padding-bottom: 64px;
   }
   
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-    }
-
-
-
   .no1 {
     display: none;
   }
@@ -309,6 +286,8 @@ img {
 
   .swiper-buttons {
     width: 436px;
+    margin-bottom: 40px;
+
   }
 
 
@@ -317,7 +296,7 @@ img {
   }
 }
 
-/* =====   media 1440 px=================================================*/
+/* =====   media 1280 px=================================================*/
 
 @media screen and (min-width: 1280px) {
 
@@ -325,11 +304,7 @@ img {
     max-width: 100%;
     margin: 0 auto;
     background-color: #141414;
-  }
-
-  .container {
-    max-width: 1280px;
-    
+    padding-bottom: 80px;
   }
 
   .tablet-boottom-pic {
@@ -379,5 +354,9 @@ img {
   .wrap768 {
     gap: 0;
     }
+
+  .swiper-buttons {
+    margin-bottom: 0;
+  }
 
 }
