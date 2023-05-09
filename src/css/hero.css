@@ -1,0 +1,362 @@
+/**-----------------hero ------------------*/
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.no {
+  display: none;
+}
+
+.no3 {
+  display: none;
+}
+
+.no5 {
+  display: none;
+}
+
+.tablet-boottom-pic1 {
+  display: none;
+}
+
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+
+
+
+.hero {
+  background-color: #141414;
+  padding-top: 69px;
+  padding-bottom: 40px;
+}
+
+.hero-name {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+
+.swiper-buttons {
+  display: flex;
+  gap: 12px;
+  width: 266px;
+  align-items: flex-end;
+
+}
+
+.sviper-pagination {
+  line-height: 50%;
+}
+
+.hero-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  background-color: transparent;
+  position: relative;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.just-text {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+
+.hero-text {
+  max-width: 248px;
+  max-height: 108px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+
+}
+
+.swiper {
+  max-width: 226px;
+  max-height: 190px;
+}
+
+.televizor {
+  width: 266px;
+  height: 200px;
+  background-color: #1E2827;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+
+}
+
+.swiper-buttons {
+  margin-bottom: 40px;
+  justify-content: space-between;
+
+}
+
+.box {
+
+  width: 40px;
+  border-top: 1px solid #FFFFFF;
+  margin: 0 6px;
+}
+
+.sviper-pagination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 1.29;
+}
+
+.swp {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+
+
+}
+
+.btn-wrp {
+  display: flex;
+  gap: 12px;
+}
+
+.swiper-slide {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+
+  
+}
+
+
+.btn-pic {
+  position: absolute;
+  fill: rgba(255, 255, 255, 0.5);
+  top: 5px;
+  right: 10px;
+}
+
+.btn-pic:hover,
+.btn-pic:focus {
+  fill: rgb(255, 255, 255);
+}
+
+
+.button-next {
+  position: relative;
+}
+
+
+.no2 {
+  display: none;
+}
+
+
+
+
+
+
+
+/* =====   media 375 px=================================================*/
+
+
+@media screen and (min-width: 375px) {
+
+  .hero {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #141414;
+  }
+
+}
+
+/* =====   media 768 px=================================================*/
+
+@media screen and (min-width: 768px) {
+    
+  .hero {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #141414;
+    padding-bottom: 64px;
+  }
+  
+  .no1 {
+    display: none;
+  }
+
+  .no2 {
+    display: block;
+  }
+
+  .sviper-pagination1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .wrap768 {
+    display: flex;
+     gap: 20px;
+      
+  }
+
+  .flextelevizor {
+    display: block;
+
+  }
+
+  .hero-name {
+    max-width: 653px;
+    font-size: 60px;
+    line-height: 1.03;
+  }
+
+  .swiper {
+    max-width: 348px;
+    max-height: 233px;
+  }
+
+  .televizor {
+    width: 436px;
+    height: 255px;
+    background-color: #1E2827;
+    padding: 11px 44px;
+    margin-bottom: 20px;
+    
+  }
+
+  .slid-pic {
+    width: 348px;
+    height: 233px;
+  }
+
+
+
+  .just-text {
+    margin-top: 70px;
+  }
+
+  .hero-btn {
+    width: 40px;
+    height: 40px;
+  }
+    
+  .btn-pic {
+    width: 15px;
+    height: 30px;
+    top: 5px;
+    right: 11px;
+  }
+
+  .swiper-buttons {
+    width: 436px;
+    margin-bottom: 40px;
+
+  }
+
+
+  .sviper-pagination {
+    line-height: 60%;
+  }
+}
+
+/* =====   media 1280 px=================================================*/
+
+@media screen and (min-width: 1280px) {
+
+  .hero {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #141414;
+    padding-bottom: 80px;
+  }
+
+  .tablet-boottom-pic {
+    display: none;
+  }
+
+  
+
+
+  .no3 {
+    display: block;
+  }
+
+  .no4 {
+    display: none;
+  }
+
+  .no5 {
+    display: block;
+  }
+
+  .tablet-boottom-pic1 {
+      display: block;
+    }
+  
+  .hero-name {
+    max-width: 750px;
+    font-size: 60px;
+  }
+  .hero-text {
+     max-width: 282px;
+  }
+
+  .wrap-desktop-name {
+    display: flex;
+    justify-content: space-between;
+  }
+  .wrap-bottom-desktop {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .wrap-televozor {
+    margin-top: 69px;
+  }
+
+  .wrap768 {
+    gap: 0;
+    }
+
+  .swiper-buttons {
+    margin-bottom: 0;
+  }
+
+}
