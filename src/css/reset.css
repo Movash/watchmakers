@@ -52,12 +52,20 @@ body {
   margin-right: auto;
 }
 
+.project-margin {
+  margin-bottom: 80px;
+}
+
 @media screen and (min-width: 768px) {
 
 .container {
   max-width: 768px;
   padding-left: 32px;
   padding-right: 32px;
+}
+
+.project-margin {
+  margin-bottom: 128px;
 }
 }
 
@@ -67,5 +75,9 @@ body {
   max-width: 1280px;
   padding-left: 52px;
   padding-right: 52px;
+}
+
+.project-margin {
+  margin-bottom: 160px;
 }
 }

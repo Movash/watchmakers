@@ -1,4 +1,8 @@
 /* ===========================About Us Section========================== */
+.about-us-section {
+  margin-top: 40px;
+}
+
 .section-name {
   font-weight: 600;
   font-size: 32px;
@@ -15,6 +19,7 @@
   color: #141414;
 }
 @media screen and (max-width: 767px) {
+
   .about-us-desc-part-one {
     margin-bottom: 20px;
   }
@@ -27,6 +32,10 @@
   }
 }
 @media screen and (min-width: 768px) {
+
+  .about-us-section {
+  margin-top: 64px;
+  }
   .about-us-all-text-wrapper {
     display: flex;
     margin-bottom: 40px;
@@ -50,6 +59,10 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  
+  .about-us-section {
+  margin-top: 80px;
+}
   .pic-wrapper {
     display: block;
   }

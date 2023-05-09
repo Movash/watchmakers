@@ -113,8 +113,8 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .container-sale {
-    width: 636px;
+  .all-content-wrapper {
+    margin: 0 66px;
   }
   .section-name {
     font-weight: 600;
@@ -225,14 +225,12 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container-sale {
-    width: 1085px;
-  }
   .section-name {
     margin-bottom: 80px;
   }
   .all-content-wrapper {
     display: flex;
+    margin: 0 97px;
   }
   .all-pics-wrapper {
     margin-right: 40px;
