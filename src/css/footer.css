@@ -99,7 +99,7 @@
   margin-bottom: 14px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 767px) {
   .footer-logo {
     width: 40px;
     height: 40px;
