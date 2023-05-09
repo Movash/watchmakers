@@ -43,21 +43,7 @@ body {
     vertical-align: bottom;
     background: #141414;
   }
-  .watch-pic-white {
-    width: 64px;
-    height: 80px;
-  }
-  .watch-pic-white::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    opacity: 0.7;
-    z-index: 1;
-    background-image: url('../img/black-background.jpeg');
-  }
+
   .watch-pic-big {
     width: 235px;
     height: 350px;
@@ -157,10 +143,7 @@ body {
     vertical-align: bottom;
     background: #141414;
   }
-  .watch-pic-white {
-    width: 122px;
-    height: 146px;
-  }
+
   .watch-pic-big {
     width: 406px;
     height: 614px;
