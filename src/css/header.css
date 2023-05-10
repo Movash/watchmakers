@@ -44,6 +44,11 @@
 
 .header-mobile-menu-icon {
     fill: #ffffff;
+    transition: fill var(--transition-dur-and-func);
+}
+.header-mobile-menu-icon:hover,
+.header-mobile-menu-icon:focus{
+    fill: var(--accent-color);
 }
 
 .header-mobile-menu-open {
@@ -100,6 +105,11 @@
 
 .modal-close-btn-icon {
     fill: #FFFFFF;
+    transition: fill var(--transition-dur-and-func);
+}
+.modal-close-btn-icon:hover,
+.modal-close-btn-icon:focus{
+    fill: var(--accent-color);
 }
 
 .burger-item:not(:last-child) {
