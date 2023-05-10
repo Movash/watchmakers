@@ -1,5 +1,6 @@
 :root {
 --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+--accent-color: #7c7777;
 }
 
 .page-header {
@@ -122,13 +123,13 @@
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #FFFFFF;
-    /* transition: color var(--transition-dur-and-func); */
+    transition: color var(--transition-dur-and-func);
 }
 
-/* .burger-link:hover,
+.burger-link:hover,
 .burger-link:focus {
     color: var(--accent-color);
-} */
+}
 }
 
 /* ================= /BURGER MODAL ================*/
@@ -180,13 +181,13 @@
     line-height: 1.33;
     text-transform: uppercase;
     color: #FFFFFF;
-    /* transition: color var(--transition-dur-and-func); */
+    transition: color var(--transition-dur-and-func);
 }
 
-/* .header-menu-link:hover,
+.header-menu-link:hover,
 .header-menu-link:focus {
     color: var(--accent-color);
-} */
+}
 
 .header-address {
     line-height: 0;
@@ -201,11 +202,12 @@
     padding: 18px 36px;
     background: #1E2827;
     border-radius: 8px;
-    /* transition: color var(--transition-dur-and-func); */
+    transition: color var(--transition-dur-and-func), background var(--transition-dur-and-func);
 }
 
-/* .header-contact:hover,
+.header-contact:hover,
 .header-contact:focus {
     color: var(--accent-color);
-} */
+    background: #754040;
+}
 }
