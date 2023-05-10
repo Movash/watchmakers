@@ -16,6 +16,11 @@
   letter-spacing: -0.02em;
   color: #ffffff;
   text-transform: uppercase;
+  transition: color var(--transition-dur-and-func);
+}
+.footer-title:hover,
+.footer-title:focus{
+    color: var(--accent-color);
 }
 
 .footer-down {
@@ -23,6 +28,12 @@
   line-height: 1.17;
   letter-spacing: -0.02em;
   color: #c6cdd1;
+  margin-right: 14px;
+  transition: color var(--transition-dur-and-func);
+}
+.footer-down:hover,
+.footer-down:focus{
+    color: var(--accent-color);
 }
 
 .soc {
@@ -73,10 +84,6 @@
   display: flex;
 }
 
-.footer-down {
-  margin-right: 14px;
-}
-
 .footer-tel {
   margin-top: 40px;
   margin-bottom: 20px;
@@ -103,7 +110,6 @@
     width: 40px;
     height: 40px;
   }
-
 
 @media screen and (min-width: 768px) {
   .footer {
