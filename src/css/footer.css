@@ -44,6 +44,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color var(--transition-dur-and-func);
+}
+
+.soc:hover,
+.soc:focus {
+    background-color: var(--bg-color);
 }
 
 .soc-foot {
@@ -65,6 +71,11 @@
 
 .soc-foot {
   fill: #ffffff;
+  transition: fill var(--transition-dur-and-func);
+}
+.socials-link > .soc-foot:hover,
+.socials-link > .soc-foot:focus{
+  fill: var(--accent-color);
 }
 
 .svg-foot {
