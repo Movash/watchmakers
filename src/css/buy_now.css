@@ -78,8 +78,8 @@
     letter-spacing: -0.02em;
     color: rgba(20, 20, 20, 0.5);
 }
-.modal-form-input:invalid,
-.modal-form-textarea:invalid{
+.modal-form-input:not(:placeholder-shown):invalid,
+.modal-form-textarea:not(:placeholder-shown):invalid{
     border-color:red;
 }
 .modal-form-textarea{
