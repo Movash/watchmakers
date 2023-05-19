@@ -1,7 +1,7 @@
 .page-header {
+    position: absolute;
+    width: 100%;
     padding-top: 29px;
-    padding-bottom: 29px;
-    background-color: #141414;
 }
 
 .page-nav {
@@ -143,7 +143,6 @@
 
 .page-header {
     padding-top: 34px;
-    padding-bottom: 34px;
 }
 
 .header-mobile-menu {

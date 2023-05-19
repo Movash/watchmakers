@@ -9,19 +9,19 @@
 }
 .modal{
     width: 90%;
-    height: auto;
+    max-height: 95vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background: #FFFFFF;
     box-shadow: 0px 0px 223px rgba(0, 0, 0, 0.05), 0px 0px 130.6px rgba(0, 0, 0, 0.037963), 0px 0px 71.0296px rgba(0, 0, 0, 0.0303704), 0px 0px 36.2375px rgba(0, 0, 0, 0.025), 0px 0px 18.1704px rgba(0, 0, 0, 0.0196296), 0px 0px 8.77546px rgba(0, 0, 0, 0.012037);
     position: absolute;
-    top: 67%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(0);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 40px 20px;
+    overflow-y: auto;
 }
 .backdrop.is-hidden .modal{
     transform: translate(-50%, -50%) rotate(-360deg);
@@ -112,13 +112,11 @@
 @media screen and (min-width: 768px) {
     .modal{
         width: 744px;
-        min-height: 670px;
         flex-direction: row;
         flex-wrap: nowrap;
         gap: 20px;
-        align-items:start;
+        align-items: start;
         padding: 40px;
-        top: 50%;
     }
     .btn-close{
         top: 20px;

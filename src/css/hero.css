@@ -1,12 +1,4 @@
 /**-----------------hero ------------------*/
-p,
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-}
-
 .no {
   display: none;
 }
@@ -24,25 +16,11 @@ h4 {
 }
 
 
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  width: 100%;
-}
-
-
 
 
 .hero {
   background-color: #141414;
-  padding-top: 40px;
+  padding-top: 122px;
   padding-bottom: 40px;
 }
 
@@ -211,7 +189,7 @@ img {
     margin: 0 auto;
     background-color: #141414;
     padding-bottom: 64px;
-    padding-top: 61px;
+    padding-top: 148px;
   }
   
   .no1 {
@@ -233,7 +211,7 @@ img {
 
   .wrap768 {
     display: flex;
-     gap: 20px;
+    gap: 20px;
       
   }
 
@@ -312,9 +290,6 @@ img {
     display: none;
   }
 
-  
-
-
   .no3 {
     display: block;
   }
@@ -336,7 +311,7 @@ img {
     font-size: 60px;
   }
   .hero-text {
-     max-width: 282px;
+    max-width: 282px;
   }
 
   .wrap-desktop-name {

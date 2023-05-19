@@ -40,6 +40,7 @@
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
+    margin-top: 14px;
 }
 .price-watch{
     font-size: 12px;
@@ -84,16 +85,17 @@
 .img-wrap{
     position: relative;
     overflow: hidden;
-    margin: 43px auto 57px;
+    padding: 43px 30px;
 }
 .img-text-wrap{
     position: absolute;
     top: 0;
+    left: 0;
     background-color: #1E2827;
+    border-radius: 8px;
     padding: 40px;
     height: 100%;
     transform: translateY(100%);
-    overflow: auto;
 } 
 @keyframes flip-horizontal-fwd {
     0% {
@@ -111,7 +113,8 @@
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-bottom: 10px;
+    padding: 6px 0;
+    margin-bottom: 4px;
   }
   .cards-text{
     font-size: 14px;
@@ -125,7 +128,11 @@
     margin-bottom: 0;
   }
 
-
+@media screen and (max-width: 374px) {
+    .img-wrap{
+        padding: 43px 0;
+}
+}
 
 /* -------TABLET 768 -----*/
 @media screen and (min-width: 768px) {
@@ -138,9 +145,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 40px 32px;
-    }
-    .img-wrap{
-        margin: 43px 30px 57px;
     }
     .modal-btn-open{
         margin-right: 32px;
@@ -159,7 +163,10 @@
         margin-bottom: 64px;
     }
     .img-wrap{
-        margin: 26px 0 39px;
+        padding: 26px 0 25px;
+    }
+    .img-text-wrap{
+    padding: 20px;
     }
     .description-watch{
         max-width: 276px;
